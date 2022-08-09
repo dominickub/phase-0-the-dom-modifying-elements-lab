@@ -1,9 +1,37 @@
 // Write your code here!
 document.querySelector(`main`).remove();
 
+const newHeader = document.createElement("h1")
 
-const newHeader = document.createElement(`h1`)
-newHeader.setAttribute("id", "victory")
+newHeader.id = "victory"
+
+newHeader.innerHTML = "Dominick is the champion"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// const newHeader = document.createElement(`h1`)
+// newHeader.setAttribute("id", "victory")
+
 // document.append(newHeader)
 // document.body.append(newHeader)
 // const h1 = document.createElement(`h1`)
@@ -13,6 +41,6 @@ newHeader.setAttribute("id", "victory")
 //     newHeader.id = "victory"
 // document.querySelector("h1#victory")
 // document.body.appendChild(newHeader)
-newHeader.innerHTML = "Dominick is the champion"
+// newHeader.innerHTML = "Dominick is the champion"
 
 
